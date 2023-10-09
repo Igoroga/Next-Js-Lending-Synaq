@@ -41,8 +41,8 @@ body {
 }
 
 body {
-  overflow: auto;
-  overscroll-behavior: contain;
+  overflow: visible;
+  height: fit-content;
   background-image: linear-gradient(to right, #e2f6ff , #90DCFF);
 }
 
