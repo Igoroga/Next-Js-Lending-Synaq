@@ -91,6 +91,10 @@
         }
 
         &-container {
+            min-height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             max-width: 1096px;
             margin: 0 auto;
             margin-top: 70%;
