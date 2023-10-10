@@ -19,27 +19,33 @@ const Footer = () => {
                     <div className="footer-content">
                         <div className="footer-left">
                             <div className="footer-icon">
-                                <Image
-                                    className="footer-img"
-                                    src="/static/icons/facebook.svg"
-                                    alt="Logo"
-                                    width={23}
-                                    height={23}
-                                />
-                                <Image
-                                    className="footer-img"
-                                    src="/static/icons/instagram.svg"
-                                    alt="Logo"
-                                    width={23}
-                                    height={23}
-                                />
-                                <Image
-                                    className="footer-img"
-                                    src="/static/icons/linked-in.svg"
-                                    alt="Logo"
-                                    width={23}
-                                    height={23}
-                                />
+                                <a href="https://www.instagram.com/beyim.ai/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        className="footer-img"
+                                        src="/static/icons/facebook.svg"
+                                        alt="Facebook"
+                                        width={23}
+                                        height={23}
+                                    />
+                                </a>
+                                <a href="https://www.instagram.com/beyim.ai/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        className="footer-img"
+                                        src="/static/icons/instagram.svg"
+                                        alt="Instagram"
+                                        width={23}
+                                        height={23}
+                                    />
+                                </a>
+                                <a href="https://www.linkedin.com/company/beyim1/" target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        className="footer-img"
+                                        src="/static/icons/linked-in.svg"
+                                        alt="LinkedIn"
+                                        width={23}
+                                        height={23}
+                                    />
+                                </a>
                             </div>
                             <p className="footer-p">Beyim Tech © 2023 </p>
                         </div>

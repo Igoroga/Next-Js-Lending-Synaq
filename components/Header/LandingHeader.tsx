@@ -5,6 +5,7 @@ import Image from "next/image";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import Link from 'next-intl/link';
+import Head from "next/head";
 
 
 // http://localhost:3000/ru/authorization/
@@ -44,7 +45,10 @@ const LandingHeader = () => {
    }, []);
 
    return (
-      <>
+      <div>
+      <Head>
+         <title>Привет мир</title>           
+      </Head>
          <div className="headerMain">
             <div className="headerNav">
                <Link href="/">
@@ -91,7 +95,7 @@ const LandingHeader = () => {
                </Link>
              </div>
          </div>
-      </>
+      </div>
    );
 };
 

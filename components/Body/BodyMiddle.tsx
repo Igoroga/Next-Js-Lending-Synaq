@@ -22,9 +22,7 @@ const LandingHeader = () => {
              <div className={`middle-background ${isRussian ? 'middle-background-ru' : ''} ${isKazakh ? 'middle-background-kz' : ''} ${isEnglish ? 'middle-background-en' : ''}`}>
                 <div className="middle-container">
 
-                    <h1 className="middle-h1">{t("h1-1")}</h1>
-                    <h1 className="middle-h1">{t("h1-2")}</h1>
-                    <h1 className="middle-h1">{t("h1-3")}</h1>
+                    <h1 className="middle-title"><span className="middle-h1">{t("h1-1")}</span><span className="middle-h1">{t("h1-2")}</span><span className="middle-h1">{t("h1-3")}</span></h1>                    
 
                     <p className="middle-p">{t("complex")}</p>
                     <a href="https://forms.gle/TjqvhLgActJytshFA" target="_blank">
