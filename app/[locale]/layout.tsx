@@ -15,8 +15,10 @@ export default async function LocaleLayout({
    }
 
    return (
+
       <html lang={locale}>
          <Head>
+            <title></title>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link
                rel="preconnect"

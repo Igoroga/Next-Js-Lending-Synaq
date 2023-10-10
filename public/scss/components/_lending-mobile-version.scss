@@ -1,6 +1,7 @@
 @media (max-width: 550px) {
    .middle {
       &-background {
+         min-height: auto;
          width: 100%;
          height: 100%;
          background-image: none;
@@ -14,6 +15,7 @@
       }
 
       &-h1 {
+         display: block;
          max-width: 600px;
          margin-top: 0;
          margin-bottom: 2px;
