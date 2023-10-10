@@ -1,6 +1,6 @@
 .middle {
    &-background {
-      
+      min-height: 700px;
       background-image: url("/static/image/main-img-ru.png");
       background-size: 50% auto;
       background-repeat: no-repeat;
@@ -68,4 +68,25 @@
       transform: scale(1.05);
    }
 
+}
+
+@media (min-width: 1920px) {
+   .middle {
+      &-background {
+         height: calc(100vh - 64px - 82px);
+         min-height: 790px;
+         background-size: 800px 800px;
+         background-position: calc(100% - 300px) calc(50% + 40px);
+         }
+
+         &-container {
+            min-height: calc(100vh - 64px - 82px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 1096px;
+            margin: 0 auto;
+            padding: 0 15px;
+         }
+   }
 }
